@@ -1,3 +1,6 @@
+//ARENA RPG
+//ANDREY
+
 #include <conio.h>
 #include <stdio.h>
 #include <stdlib.h>
@@ -2648,31 +2651,31 @@ int main (){
     do
     {
         gotoxy(10,3 );textcolor(6);
-        printf("       ®®®        ®®®®®®®      ®®®®®®®     ®®®   ®®        ®®®®       ");textcolor(4);
+        printf("       Â®Â®Â®        Â®Â®Â®Â®Â®Â®Â®      Â®Â®Â®Â®Â®Â®Â®     Â®Â®Â®   Â®Â®        Â®Â®Â®Â®       ");textcolor(4);
         gotoxy(10,4 );
-        printf("      ®®®®®       ®®®  ®®®     ®®®         ®®®®  ®®        ®®®®       ");textcolor(6);
+        printf("      Â®Â®Â®Â®Â®       Â®Â®Â®  Â®Â®Â®     Â®Â®Â®         Â®Â®Â®Â®  Â®Â®        Â®Â®Â®Â®       ");textcolor(6);
         gotoxy(10,5 );
-        printf("      ®® ®®®      ®®®®®®®      ®®®®®®®     ®®®®® ®®       ®® ®®®      ");textcolor(4);
+        printf("      Â®Â® Â®Â®Â®      Â®Â®Â®Â®Â®Â®Â®      Â®Â®Â®Â®Â®Â®Â®     Â®Â®Â®Â®Â® Â®Â®       Â®Â® Â®Â®Â®      ");textcolor(4);
         gotoxy(10,6 );
-        printf("     ®®® ®®®      ®®®®®®       ®®®         ®®® ®®®®      ®®®  ®®      ");textcolor(6);
+        printf("     Â®Â®Â® Â®Â®Â®      Â®Â®Â®Â®Â®Â®       Â®Â®Â®         Â®Â®Â® Â®Â®Â®Â®      Â®Â®Â®  Â®Â®      ");textcolor(6);
         gotoxy(10,7 );
-        printf("     ®®®®®®®®     ®®®  ®®      ®®®®®®®     ®®®  ®®®      ®®®®®®®®     ");textcolor(4);
+        printf("     Â®Â®Â®Â®Â®Â®Â®Â®     Â®Â®Â®  Â®Â®      Â®Â®Â®Â®Â®Â®Â®     Â®Â®Â®  Â®Â®Â®      Â®Â®Â®Â®Â®Â®Â®Â®     ");textcolor(4);
         gotoxy(10,8 );
-        printf("    ®®®   ®®®     ®®®  ®®®     ®®®®®®®     ®®®   ®®     ®®®    ®®     ");textcolor(6);
+        printf("    Â®Â®Â®   Â®Â®Â®     Â®Â®Â®  Â®Â®Â®     Â®Â®Â®Â®Â®Â®Â®     Â®Â®Â®   Â®Â®     Â®Â®Â®    Â®Â®     ");textcolor(6);
         gotoxy(10,9 );
         printf("");
         gotoxy(10,10);
         printf("");
         gotoxy(10,11);
-        printf("                    ®®®®®®®      ®®®®®®®      ®®®®®®®            ");textcolor(4);
+        printf("                    Â®Â®Â®Â®Â®Â®Â®      Â®Â®Â®Â®Â®Â®Â®      Â®Â®Â®Â®Â®Â®Â®            ");textcolor(4);
         gotoxy(10,12);
-        printf("                    ®®   ®®®     ®®®  ®®     ®®®                ");textcolor(6);
+        printf("                    Â®Â®   Â®Â®Â®     Â®Â®Â®  Â®Â®     Â®Â®Â®                ");textcolor(6);
         gotoxy(10,13);
-        printf("                    ®®®®®®®      ®®®®®®®     ®®® ®®®®®           ");textcolor(4);
+        printf("                    Â®Â®Â®Â®Â®Â®Â®      Â®Â®Â®Â®Â®Â®Â®     Â®Â®Â® Â®Â®Â®Â®Â®           ");textcolor(4);
         gotoxy(10,14);
-        printf("                    ®®  ®®®      ®®®         ®®®   ®®®           ");textcolor(6);
+        printf("                    Â®Â®  Â®Â®Â®      Â®Â®Â®         Â®Â®Â®   Â®Â®Â®           ");textcolor(6);
         gotoxy(10,15);
-        printf("                    ®®   ®®®     ®®®          ®®®®®®®	          ");textcolor(4);
+        printf("                    Â®Â®   Â®Â®Â®     Â®Â®Â®          Â®Â®Â®Â®Â®Â®Â®	          ");textcolor(4);
         gotoxy(10,16 );
         printf("");
         gotoxy(10,17 );
@@ -2859,7 +2862,7 @@ int main (){
                                "\nPara a contrucao do codigo foram usados os seguintes comandos:"
                                "\nComando if - else"
                                "\nEstrutura condicional com mais de um comando"
-                               "\n(Condições compostas)"
+                               "\n(CondiÃ§Ãµes compostas)"
                                "\nCondicoes (Aninhadas - Encadeadas)"
                                " \nEscolha Caso (Switch Case-Linguagem C),"
                                "\nlaco de repeticao (do_while,for,while)"
