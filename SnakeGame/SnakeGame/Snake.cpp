@@ -6,11 +6,6 @@
 
 
 void Snake::Move() {
-	//Inputs handle
-	HANDLE input_handle;
-	HANDLE output_handle;
-
-
 	INPUT_RECORD input;
 
 	DWORD Events = 0;
@@ -26,7 +21,13 @@ void Snake::Move() {
 
 }
 
-void Snake::Draw() {
+void Snake::Draw(int draw) {
+	if (draw == 1)
+	{
+		SetConsoleCursorPosition(output_handle, Position);
+		cout << 
+	}
+
 
 }
 

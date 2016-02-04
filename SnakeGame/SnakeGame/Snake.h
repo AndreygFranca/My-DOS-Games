@@ -7,12 +7,14 @@ class Snake {
 public:
 	int Size;
 
-	void Move();
+	void Move(int draw);
 
 	void Draw();
 
 	void GainSize();
 private:
+	HANDLE input_handle;
+	HANDLE output_handle;
 	COORD Position;
 };
 
