@@ -1,6 +1,7 @@
-#include "Main.h"
 #ifndef _FOOD_H
 #define _FOOD_H
+
+#include "Main.h"
 
 class Food {
 public:

@@ -1,6 +1,7 @@
-#include "Main.h"
 #ifndef _SNAKE_H
 #define _SNAKE_H
+
+#include "Main.h"
 
 class Snake {
 public:
