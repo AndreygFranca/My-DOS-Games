@@ -3,19 +3,26 @@
 
 #include "Main.h"
 
-class Snake {
+class CSnake {
 public:
-	int Size;
+	CSnake(); 
 
-	void Move(int draw);
+	int lenght;
 
-	void Draw();
+	void Move();
+
+	void Draw(bool draw);
 
 	void GainSize();
+
+	void Logic();
 private:
 	HANDLE input_handle;
 	HANDLE output_handle;
 	COORD Position;
+
+	//Directions
+	bool L, R, D, U, A; // LEFT, RIGHT, DOWN, UP, A just a bool
 };
 
 #endif //_SNAKE_H

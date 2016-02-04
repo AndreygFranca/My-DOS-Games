@@ -3,11 +3,15 @@
 
 #include "Main.h"
 
-class Food {
+class CFood {
 public:
 
-	void RandPosition();
-private:
+	CFood();
+
+	void GenerateFood();
+
+	int FoodPosition(int a, int b);
+
 	COORD Position;
 };
 
